@@ -6,7 +6,7 @@ import { ForgeActorSheet } from './sheets/actor-sheet.mjs';
 import { ForgeItemSheet } from './sheets/item-sheet.mjs';
 // Import helper/utility classes and constants.
 import { preloadHandlebarsTemplates } from './helpers/templates.mjs';
-import { BOILERPLATE } from './helpers/config.mjs';
+import { FORGE } from './helpers/config.mjs';
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -22,7 +22,7 @@ Hooks.once('init', function () {
   };
 
   // Add custom constants for configuration.
-  CONFIG.BOILERPLATE = BOILERPLATE;
+  CONFIG.FORGE = FORGE;
 
   /**
    * Set an initiative formula for the system
@@ -46,12 +46,12 @@ Hooks.once('init', function () {
   Actors.unregisterSheet('core', ActorSheet);
   Actors.registerSheet('forge', ForgeActorSheet, {
     makeDefault: true,
-    label: 'BOILERPLATE.SheetLabels.Actor',
+    label: 'FORGE.SheetLabels.Actor',
   });
   Items.unregisterSheet('core', ItemSheet);
   Items.registerSheet('forge', ForgeItemSheet, {
     makeDefault: true,
-    label: 'BOILERPLATE.SheetLabels.Item',
+    label: 'FORGE.SheetLabels.Item',
   });
 
   // Preload Handlebars templates.

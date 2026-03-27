@@ -46,8 +46,8 @@ export class ForgeActorSheet extends ActorSheet {
     context.system = actorData.system;
     context.flags = actorData.flags;
 
-    // Adding a pointer to CONFIG.BOILERPLATE
-    context.config = CONFIG.BOILERPLATE;
+    // Adding a pointer to CONFIG.FORGE
+    context.config = CONFIG.FORGE;
 
     // Prepare character data and items.
     if (actorData.type == 'character') {

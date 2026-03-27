@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const FORGE = {};
 
 /**
  * The set of Ability Scores used within the system.
  * @type {Object}
  */
-BOILERPLATE.abilities = {
-  str: 'BOILERPLATE.Ability.Str.long',
-  dex: 'BOILERPLATE.Ability.Dex.long',
-  con: 'BOILERPLATE.Ability.Con.long',
-  int: 'BOILERPLATE.Ability.Int.long',
-  wis: 'BOILERPLATE.Ability.Wis.long',
-  cha: 'BOILERPLATE.Ability.Cha.long',
+FORGE.abilities = {
+  str: 'FORGE.Ability.Str.long',
+  dex: 'FORGE.Ability.Dex.long',
+  con: 'FORGE.Ability.Con.long',
+  int: 'FORGE.Ability.Int.long',
+  wis: 'FORGE.Ability.Wis.long',
+  cha: 'FORGE.Ability.Cha.long',
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  str: 'BOILERPLATE.Ability.Str.abbr',
-  dex: 'BOILERPLATE.Ability.Dex.abbr',
-  con: 'BOILERPLATE.Ability.Con.abbr',
-  int: 'BOILERPLATE.Ability.Int.abbr',
-  wis: 'BOILERPLATE.Ability.Wis.abbr',
-  cha: 'BOILERPLATE.Ability.Cha.abbr',
+FORGE.abilityAbbreviations = {
+  str: 'FORGE.Ability.Str.abbr',
+  dex: 'FORGE.Ability.Dex.abbr',
+  con: 'FORGE.Ability.Con.abbr',
+  int: 'FORGE.Ability.Int.abbr',
+  wis: 'FORGE.Ability.Wis.abbr',
+  cha: 'FORGE.Ability.Cha.abbr',
 };

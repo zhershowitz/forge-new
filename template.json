@@ -8,7 +8,7 @@
           "min": 0,
           "max": 10
         },
-        "power": {
+        "proficency": {
           "value": 5,
           "min": 0,
           "max": 5
