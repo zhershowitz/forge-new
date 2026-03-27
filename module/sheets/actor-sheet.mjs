@@ -116,6 +116,7 @@ export class ForgeActorSheet extends ActorSheet {
       7: [],
       8: [],
       9: [],
+      10: [],
     };
 
     // Iterate through items, allocating to containers
