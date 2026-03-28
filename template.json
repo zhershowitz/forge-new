@@ -19,7 +19,7 @@
     "character": {
       "templates": ["base"],
       "attributes": {
-        "level": {
+        "proficency": {
           "value": 1
         }
       },
