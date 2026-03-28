@@ -16,8 +16,8 @@ export default class ForgeActorBase extends ForgeDataModel {
       max: new fields.NumberField({ ...requiredInteger, initial: 10 })
     });
     schema.hitdice = new fields.SchemaField({
-      value: new fields.NumberField({ ...requiredInteger, initial: 5, min: 0 }),
-      max: new fields.NumberField({ ...requiredInteger, initial: 5 })
+      value: new fields.NumberField({ ...requiredInteger, initial: 1, min: 0 }),
+      max: new fields.NumberField({ ...requiredInteger, initial: 1 })
     });
     schema.biography = new fields.StringField({ required: true, blank: true }); // equivalent to passing ({initial: ""}) for StringFields
 
