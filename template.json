@@ -9,12 +9,12 @@
           "max": 10
         },
         "hitdice": {
-          "value": 5,
+          "value": 1,
           "min": 0,
-          "max": []
+          "max": 1
         },
         "ac": {
-          "value": []
+          "value": 10
         },
         "biography": ""
         
