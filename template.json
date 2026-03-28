@@ -13,7 +13,11 @@
           "min": 0,
           "max": []
         },
+        "ac": {
+          "value": []
+        },
         "biography": ""
+        
       }
     },
     "character": {
