@@ -26,8 +26,8 @@
   ],
   "version": "0.0.1",
   "compatibility": {
-    "minimum": 13,
-    "verified": "13.351"
+    "minimum": 14,
+    "verified": "14.351"
   },
   "esmodules": ["module/forge.mjs"],
   "styles": ["css/forge.css"],
@@ -44,8 +44,8 @@
   "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
   "download": "This must link to a .zip file of the current version",
   "background": "systems/forge/assets/anvil-impact.png",
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "grid.distance": 5,
+  "grid.units": "ft",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "hitdice",
   "thirdTokenAttribute": "ac"
